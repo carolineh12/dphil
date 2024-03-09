@@ -3,7 +3,7 @@
 
 # carolineh12's Website
 
-An engaging 1-3 sentence description of your lab.
+Asian interest sorority.
 
 {% include section.html %}
 
@@ -11,12 +11,12 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Interested in joining? Keep a lookout for upcoming events.
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="[Join](contact)"
+  text="Learn More"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -26,9 +26,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/recruitment.jpg"
   link="research"
-  title="Our Research"
+  title="Recruitment"
   text=text
 %}
 
