@@ -15,7 +15,7 @@ Interested in joining? Keep a lookout for upcoming events.
 
 {%
   include button.html
-  link="[Join](contact)"
+  link="contact"
   text="Learn More"
   icon="fa-solid fa-arrow-right"
   flip=true
